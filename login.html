@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    
+    <!-- HEADER -->
+    <header class="header">
+        <div class="alert alert-primary" role="alert">
+            Troca extendida para 40 dias
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-5 col-lg-4">
+                            <ul class="nav main-nav-header">
+                                <li class="nav-item margin-rigth">
+                                    <a class="nav-link active" href="./login.html">Login</a>
+                                </li>
+                                <li class="nav-item margin-rigth">
+                                    <a class="nav-link" href="./car.html">Carrinho(<span id="qnt_car">0</span>)</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./contact.html">Contato</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-2 col-lg-5">
+                            <h1><a href="./index.html">FREEDOM FASHION</a></h1>
+                        </div>
+                        <div class="col-5 col-lg-3">
+                            <form method="GET" action="./searsh.html">
+                                <input name="q" type="text" placeholder="PROCURAR" maxlength="38"/>
+                                <button><img src="./images/lupa.png"></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row busca-header">
+                        <ul class="nav">
+                            <li class="nav-item margin-rigth">
+                                <a class="nav-link" href="./promo.html">Promoções</a>
+                            </li>
+                            <li class="nav-item margin-rigth">
+                                <a class="nav-link" href="./searsh.html">Feminino</a>
+                            </li>
+                            <li class="nav-item margin-rigth">
+                                <a class="nav-link" href="./searsh.html">Masculino</a>
+                            </li>
+                            <li class="nav-item margin-rigth">
+                                <a class="nav-link" href="./searsh.html">Infantil</a>
+                            </li>
+                            <li class="nav-item margin-rigth">
+                                <a class="nav-link" href="./searsh.html">Moda intima</a>
+                            </li>
+                            <li class="nav-item margin-rigth">
+                                <a class="nav-link" href="./searsh.html">Calçados</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./searsh.html">Geek</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- INTRO -->
+    <section class="image_bg login_bg intro_main_page">
+        <div class="container">
+            <div class="row">
+                <div class="mx-auto">
+                    <h2>Freedom Fashion</h2>
+                    <cite>“A moda sai de moda, o estilo jamais.”</cite>
+                    <h3>-Coco Chanel</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Login & register -->
+    <section class="login_and_register">
+        
+        <div class="container">
+
+            <!-- Login -->
+            <div class="row">
+                <div class="col-10 col-sm-8 col-dm-5 col-lg-4">
+                    <h2>Login</h2>
+                    <form method="POST">
+                        <p><label for="email">Email:</label></p>
+                        <p><input type="email" name="email" maxlength="50" placeholder="Email"></p>
+                        <p><label for="email">Senha:</label></p>
+                        <p><input type="password" name="password" maxlength="16" placeholder="Senha"></p>
+                        <p><input type="checkbox" name="lembreme"><label for="lembreme" class="margin-left-15px">Lembre-se de mim</label></p>
+                        <p><button type="button" class="btn btn-danger">Login</button></p>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Register -->
+            <div class="row">
+                <div class="col-10 col-sm-8 col-dm-5 col-lg-4">
+                    <h2>Register</h2>
+                    <form method="POST">
+                        <p><label for="email">Email:</label></p>
+                        <p><input type="email" name="email" maxlength="50" placeholder="Email"></p>
+                        <p><label for="email">Senha:</label></p>
+                        <p><input type="password" name="password" maxlength="16" placeholder="Senha"></p>
+                        <p><label for="email">Confirme sua senha:</label></p>
+                        <p><input type="password" name="confirm-password" maxlength="16" placeholder="Confirme sua senha"></p>
+                        <p><button type="button" class="btn btn-danger">Cadastrar</button></p>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- NEWS -->
+    <section class="margin-top-80px news">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-8 col-lg-5">
+                    <h2>Fique por dentro das nossas novidades e promoções</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-8 col-lg-4">
+                    <form method="POST">
+                        <p><label for="email">Email:</label></p>
+                        <p><input name="email" type="email"></p>
+                        <p><label for="password">Senha:</label></p>
+                        <p><input name="password" type="password"></p>
+                        <button type="submit">Cadastrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="margin-top-80px">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3 col-lg-3">
+                        <p><a href="https://unsplash.com/">Icones usados</a></p>
+                        <p>Alguns direitos reservados</p>
+                        <h3>Luisz576_ @<span id="ano"></span></h3>
+                    </div>
+                    <div class="col-5 col-md-4 col-lg-3">
+                        <h3>Contato</h3>
+                        <p>Telefone: (00) 0000 - 0000</p>
+                        <p>Whatsapp: (00) 000000000</p>
+                        <p>Email: freedomfashion@g.com.br</p>
+                    </div>
+                    <div class="div-vertical"></div>
+                    <div class="col-3 col-md-3 col-lg-4">
+                        <h2>FREEDOM FASHION</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container msg-footer">
+            <div class="row">
+                <div class="mx-auto">
+                    <cite>“Monte seu estilo”</cite>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+    
+</html>

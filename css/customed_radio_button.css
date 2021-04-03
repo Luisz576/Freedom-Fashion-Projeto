@@ -1,0 +1,29 @@
+/*My radio Button*/
+.customed-radio-button label {
+    float: left;
+    color: #fff;
+    font-weight: 600;
+    width: 15%;
+    display: block;
+    background: #F00517;
+    border: 2px solid #F00517;
+    border-radius: 40px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    box-shadow: 0px 3px 10px -2px hsla(150, 5%, 65%, 0.5);
+    position: relative;
+    margin-right: 5%;
+}
+.customed-radio-button input[type="radio"]{
+    display: none;
+}
+.customed-radio-button input[type="radio"]:checked + label{
+    background-color: #8B050E;
+    border: #8B050E;
+}
+@media (max-width: 720px){
+    .customed-radio-button label{
+        padding: .5rem;
+    }
+}
